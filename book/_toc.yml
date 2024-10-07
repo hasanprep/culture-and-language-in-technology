@@ -3,7 +3,38 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: 'Lesson 0: Introduction'
+    chapters:
+    - file: lessons/lesson-00-introduction/00-introduction
+    - file: lessons/lesson-00-introduction/01-objectives
+      sections:
+      - file: lessons/lesson-00-introduction/0.0-algorithms/0-intro
+      - file: lessons/lesson-00-introduction/0.0-algorithms/1-objectives
+      - file: lessons/lesson-00-introduction/0.0-algorithms/2-materials
+      - file: lessons/lesson-00-introduction/0.0-algorithms/3-opener
+      - file: lessons/lesson-00-introduction/0.0-algorithms/4-lesson
+      - file: lessons/lesson-00-introduction/0.0-algorithms/5-lab
+      sections:
+      - file: lessons/lesson-00-introduction/0.1-programming-languages/0-intro
+      - file: lessons/lesson-00-introduction/0.1-programming-languages/1-objectives
+      - file: lessons/lesson-00-introduction/0.1-programming-languages/2-materials
+      - file: lessons/lesson-00-introduction/0.1-programming-languages/3-opener
+      - file: lessons/lesson-00-introduction/0.1-programming-languages/4-lesson
+      - file: lessons/lesson-00-introduction/0.1-programming-languages/5-lab
+      sections: 
+      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/0-intro
+      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/1-objectives
+      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/2-materials
+      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/3-opener
+      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/4-lesson
+      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/5-lab
+      sections: 
+      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/0-intro
+      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/1-objectives
+      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/2-materials
+      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/3-opener
+      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/4-lesson
+      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/5-lab
+
+
