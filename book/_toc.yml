@@ -21,6 +21,7 @@ parts:
       - file: lessons/lesson-00-introduction/01-programming-languages/03-opener
       - file: lessons/lesson-00-introduction/01-programming-languages/04-lesson
       - file: lessons/lesson-00-introduction/01-programming-languages/05-lab
+      - file: lessons/lesson-00-introduction/01-programming-languages/06-vocabulary
     - file: lessons/lesson-00-introduction/02-makecode-arcade/00-intro
       sections: 
       - file: lessons/lesson-00-introduction/02-makecode-arcade/01-objectives
@@ -28,6 +29,7 @@ parts:
       - file: lessons/lesson-00-introduction/02-makecode-arcade/03-opener
       - file: lessons/lesson-00-introduction/02-makecode-arcade/04-lesson
       - file: lessons/lesson-00-introduction/02-makecode-arcade/05-lab
+      - file: lessons/lesson-00-introduction/02-makecode-arcade/06-vocabulary
     - file: lessons/lesson-00-introduction/03-makecode-microbit/00-intro
       sections: 
       - file: lessons/lesson-00-introduction/03-makecode-microbit/01-objectives
@@ -35,5 +37,6 @@ parts:
       - file: lessons/lesson-00-introduction/03-makecode-microbit/03-opener
       - file: lessons/lesson-00-introduction/03-makecode-microbit/04-lesson
       - file: lessons/lesson-00-introduction/03-makecode-microbit/05-lab
+      - file: lessons/lesson-00-introduction/03-makecode-microbit/06-vocabulary
 
 
