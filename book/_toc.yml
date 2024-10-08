@@ -4,37 +4,36 @@
 format: jb-book
 root: intro
 parts:
-  - caption: 'Lesson 0: Introduction'
+  - caption: 'Introduction'
     chapters:
-    - file: lessons/lesson-00-introduction/00-introduction
-    - file: lessons/lesson-00-introduction/01-objectives
+    - file: lessons/lesson-00-introduction/00-algorithms/00-intro
       sections:
-      - file: lessons/lesson-00-introduction/0.0-algorithms/0-intro
-      - file: lessons/lesson-00-introduction/0.0-algorithms/1-objectives
-      - file: lessons/lesson-00-introduction/0.0-algorithms/2-materials
-      - file: lessons/lesson-00-introduction/0.0-algorithms/3-opener
-      - file: lessons/lesson-00-introduction/0.0-algorithms/4-lesson
-      - file: lessons/lesson-00-introduction/0.0-algorithms/5-lab
+      - file: lessons/lesson-00-introduction/00-algorithms/01-objectives
+      - file: lessons/lesson-00-introduction/00-algorithms/02-materials
+      - file: lessons/lesson-00-introduction/00-algorithms/03-opener
+      - file: lessons/lesson-00-introduction/00-algorithms/04-lesson
+      - file: lessons/lesson-00-introduction/00-algorithms/05-lab
+      - file: lessons/lesson-00-introduction/00-algorithms/06-vocabulary
+    - file: lessons/lesson-00-introduction/01-programming-languages/00-intro
       sections:
-      - file: lessons/lesson-00-introduction/0.1-programming-languages/0-intro
-      - file: lessons/lesson-00-introduction/0.1-programming-languages/1-objectives
-      - file: lessons/lesson-00-introduction/0.1-programming-languages/2-materials
-      - file: lessons/lesson-00-introduction/0.1-programming-languages/3-opener
-      - file: lessons/lesson-00-introduction/0.1-programming-languages/4-lesson
-      - file: lessons/lesson-00-introduction/0.1-programming-languages/5-lab
+      - file: lessons/lesson-00-introduction/01-programming-languages/01-objectives
+      - file: lessons/lesson-00-introduction/01-programming-languages/02-materials
+      - file: lessons/lesson-00-introduction/01-programming-languages/03-opener
+      - file: lessons/lesson-00-introduction/01-programming-languages/04-lesson
+      - file: lessons/lesson-00-introduction/01-programming-languages/05-lab
+    - file: lessons/lesson-00-introduction/02-makecode-arcade/00-intro
       sections: 
-      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/0-intro
-      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/1-objectives
-      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/2-materials
-      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/3-opener
-      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/4-lesson
-      - file: lessons/lesson-00-introduction/0.2-makecode-arcade/5-lab
+      - file: lessons/lesson-00-introduction/02-makecode-arcade/01-objectives
+      - file: lessons/lesson-00-introduction/02-makecode-arcade/02-materials
+      - file: lessons/lesson-00-introduction/02-makecode-arcade/03-opener
+      - file: lessons/lesson-00-introduction/02-makecode-arcade/04-lesson
+      - file: lessons/lesson-00-introduction/02-makecode-arcade/05-lab
+    - file: lessons/lesson-00-introduction/03-makecode-microbit/00-intro
       sections: 
-      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/0-intro
-      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/1-objectives
-      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/2-materials
-      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/3-opener
-      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/4-lesson
-      - file: lessons/lesson-00-introduction/0.3-makecode-microbit/5-lab
+      - file: lessons/lesson-00-introduction/03-makecode-microbit/01-objectives
+      - file: lessons/lesson-00-introduction/03-makecode-microbit/02-materials
+      - file: lessons/lesson-00-introduction/03-makecode-microbit/03-opener
+      - file: lessons/lesson-00-introduction/03-makecode-microbit/04-lesson
+      - file: lessons/lesson-00-introduction/03-makecode-microbit/05-lab
 
 
