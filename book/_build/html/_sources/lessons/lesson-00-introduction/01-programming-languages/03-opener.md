@@ -9,8 +9,6 @@ n this activity, you will work with a partner to explore different examples of c
 In this activity, you will work with a partner to explore different examples of code written in various programming languages. You may not know what the code does yet, but that’s okay! Your job is to look at each example and try to figure out what the code is doing based on patterns or similarities between them.
 
 
-## Instructions
-
 1. **Observe the Code**
 
 Four different blocks of code are displayed below. Each block is written in a different programming language. Observe the code below in pairs:
