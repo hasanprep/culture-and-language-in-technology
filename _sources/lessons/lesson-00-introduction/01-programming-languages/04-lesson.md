@@ -2,6 +2,36 @@
 
 # Lesson: 
 
+## What is a Programming Language?
 
+A **programming language** is a system of communication used to give instructions to a computer. It allows programmers to write code that tells the computer what tasks to perform, such as calculations, data processing, or running applications. Programming languages use specific syntax and rules to structure these instructions, making them understandable by both humans and machines. There are different types of programming languages, such as block-based, text-based, and scripting languages, each designed for different purposes and levels of complexity.
 
+### Types of Programming Languages
+
+Thr
+
+1. **Block-based programming languages:**
+These use visual blocks that snap together to create programs, making them ideal for beginners. Users can build code by dragging and dropping blocks instead of typing.
+- <u>MakeCode</u>: Used for creating games and coding microcontrollers with a block-based interface.
+- <u>Scratch</u>: A popular tool for teaching coding to beginners.
+2. **Text-based programming languages:**
+These require you to write code using specific syntax and rules.
+- <u>Python</u>: Easy to read and widely used for web development, data analysis, and automation.
+- <u>JavaScript</u>: Commonly used for building interactive websites.
+- <u>Java</u>: Used for mobile apps and software development.
+- <u>C++</u>: Used in game development and applications needing high performance.
+3. **Markup languages:**
+Used to define the structure and layout of content, often for websites.
+- <u>HTML</u>: Defines the structure of web pages.
+- <u>XML</u>: Used to store and transport data.
+4. **Scripting languages:**
+These automate tasks within software applications.
+- <u>Bash</u>: Used in Unix/Linux environments for task automation.
+- <u>Perl</u>: Known for text processing and system management.
+5. **Compiled languages:**
+These are converted into machine code by a compiler before running.
+- <u>C</u>: A foundational language used in system programming.
+- <u>Go</u>: Known for its simplicity and efficiency in building large-scale software.
+
+MakeCode is a **block-based progremming language** developed by Microsoft 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_Mwc1gc77dc?si=BAsyHbUHD3dtK7xL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
