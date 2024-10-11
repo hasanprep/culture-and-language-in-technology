@@ -1,6 +1,6 @@
 ![header](assets/header.png)
 
-# Introduction
+# Introduction to the MakeCode Arcade Development Environment
 
 MakeCode Arcade is an Integrated Development Environment (IDE) designed to help you create your own games using a block-based or text-based programming language. It provides an easy and fun way for beginners to learn how to code by allowing you to drag and drop blocks of code to build your game. If you’re ready for more advanced coding, you can switch to JavaScript or Python within the same environment.
 
