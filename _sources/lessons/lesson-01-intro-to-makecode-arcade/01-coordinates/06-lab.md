@@ -31,9 +31,18 @@ TODO
 
 ### 2. Plan Your Ha:ṣañ
 
+```{important}
+The following example is just an example to illustrate the process. **You must plan your own ha:ṣañ**.
+
+```
+
 ![makecode-screen-grid-completed](assets/makecode-screen-grid-completed.png)
 
 ### 3. Write Your Algorithm
+
+```{important}
+The following example is just an example to illustrate the process. **You must write your own algorithm**.
+```
 
 1. Draw line from (85, 25) to (75, 25)
 2. Draw line from (75, 25) to (75, 50)
@@ -53,6 +62,10 @@ TODO
 16. Draw line from (85, 60) to (85, 25)
 
 ### 4. Write Your Code
+
+```{important}
+The following example is just an example to illustrate the process. **You must write your own code**.
+```
 
 ![makecode-arcade-draw-hasan-code](assets/makecode-arcade-draw-hasan-code.png)
 

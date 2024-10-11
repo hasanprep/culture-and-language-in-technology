@@ -5,9 +5,17 @@
 ## O'odham Vocabulary
 
 ```{glossary}
-square
-    TODO: Enter English
+
+ha:ṣañ
+    saguaro cactus
+
+TODO:word in O'odham for square
+    spuare
 ```
+
+## O'odham Vocabulary Audio
+
+
 
 ## Computer Science Vocabulary
 
