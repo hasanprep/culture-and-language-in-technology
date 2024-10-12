@@ -1,6 +1,6 @@
 ![header](assets/header.png)
 
-# Lab: Ha:ṣañ Plotting
+# Lab: Plotting a Ha:ṣañ with MakeCode Arcade
 
 ## Introduction
 
@@ -29,11 +29,20 @@ This lab contains a complete example for reference only. Do not use this as your
 
 TODO
 
-### 2. Plan Your Ha:ṣañ
+### 2. Plan Your  Plot of a Ha:ṣañ
 
-![makecode-screen-grid-completed](assets/makecode-screen-grid-completed.png)
+```{important}
+The following example illustrates the process. **You must plan your own ha:ṣañ**.
 
-### 3. Write Your Algorithm
+```
+
+![makecode-arcade-draw-hasan-grid](assets/makecode-arcade-draw-hasan-grid.png)
+
+### 3. Write Your Ha:ṣañ Plot Algorithm
+
+```{important}
+The following example illustrates the process. **You must write your own algorithm**.
+```
 
 1. Draw line from (85, 25) to (75, 25)
 2. Draw line from (75, 25) to (75, 50)
@@ -52,7 +61,11 @@ TODO
 15. Draw line from (95, 60) to (85, 80)
 16. Draw line from (85, 60) to (85, 25)
 
-### 4. Write Your Code
+### 4. Write the Code for Your Ha:ṣañ Plot
+
+```{important}
+The following example is just an example to illustrate the process. **You must write your own code**.
+```
 
 ![makecode-arcade-draw-hasan-code](assets/makecode-arcade-draw-hasan-code.png)
 

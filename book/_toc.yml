@@ -57,6 +57,14 @@ parts:
       - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/05-lesson
       - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/06-lab
       - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/07-vocabulary
+    - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/00-intro
+      sections:
+      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/01-objectives
+      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/02-materials
+      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/03-opener
+      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/04-lesson
+      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/05-lab
+      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/06-vocabulary
     
 
 

@@ -8,7 +8,7 @@ A **programming language** is a system of communication used to give instruction
 
 ### Types of Programming Languages
 
-Thr
+There are several types of programming languages. Each type has different functionality to perform specific tasks. Here are some of the types of programming languages:
 
 1. **Block-based programming languages:**
 These use visual blocks that snap together to create programs, making them ideal for beginners. Users can build code by dragging and dropping blocks instead of typing.
@@ -33,5 +33,6 @@ These are converted into machine code by a compiler before running.
 - <u>C</u>: A foundational language used in system programming.
 - <u>Go</u>: Known for its simplicity and efficiency in building large-scale software.
 
-MakeCode is a **block-based progremming language** developed by Microsoft 
+In this course, we will use MakeCode, a block-based programming language that allows you to build programs by dragging and dropping blocks, which makes it easier to visualize and understand how code works. MakeCode is especially helpful for beginners because it provides a fun and accessible way to start coding without needing to learn complex syntax right away.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_Mwc1gc77dc?si=BAsyHbUHD3dtK7xL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
