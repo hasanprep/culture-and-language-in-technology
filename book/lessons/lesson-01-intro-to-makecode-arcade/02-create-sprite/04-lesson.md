@@ -6,26 +6,82 @@
 
 ![makecode-image-editor](assets/makecode-image-editor.png)
 
-| Label Number | Item        | Description |
-| ------------ | ----------- | ----------- |
-| 1            | Pencil size |             |
-| 2            | Pencil      |             |
-| 3            | Eraser      |             |
-| 4            | Rectangle   |             |
-| 5            |             |             |
-| 6            |             |             |
-| 7            |             |             |
-| 8            |             |             |
-| 9            |             |             |
-| 10           |             |             |
-| 11           |             |             |
-| 12           |             |             |
-| 13           |             |             |
-| 14           |             |             |
-| 15           |             |             |
-| 16           |             |             |
-| 17           |             |             |
-| 18           |             |             |
-| 19           |             |             |
-| 20           |             |             |
+### The Paint Tool
 
+![makecode-image-editor-paint-tool](assets/makecode-image-editor-paint-tool.png)
+
+![makecode-image-editor-paint-tool](assets/makecode-image-editor-paint-tool.gif)
+
+### The Eraser Tool
+
+![makecode-image-editor-eraser-tool](assets/makecode-image-editor-eraser-tool.png)
+
+![makecode-image-editor-eraser-tool](assets/makecode-image-editor-eraser-tool.gif)
+
+### The Rectangle Tool
+
+![makecode-image-editor-rectangle-tool](assets/makecode-image-editor-rectangle-tool.png)
+
+![makecode-image-editor-rectangle-tool](assets/makecode-image-editor-rectangle-tool.png)
+
+![makecode-image-editor-rectangle-tool](assets/makecode-image-editor-rectangle-tool.gif)
+
+### The Fill Tool
+
+![makecode-image-editor-fill-tool](assets/makecode-image-editor-fill-tool.png)
+
+![makecode-image-editor-fill-tool](assets/makecode-image-editor-fill-tool.gif)
+
+### The Circle Tool
+
+![makecode-image-editor-circle-tool](assets/makecode-image-editor-circle-tool.png)
+
+![makecode-image-editor-circle-tool](assets/makecode-image-editor-circle-tool.gif)
+
+### The Line Tool
+
+![makecode-image-editor-line-tool](assets/makecode-image-editor-line-tool.png)
+
+![makecode-image-editor-line-tool](assets/makecode-image-editor-line-tool.gif)
+
+### The Marquee Tool
+
+![makecode-image-editor-marquee-tool](assets/makecode-image-editor-marquee-tool.png)
+
+![makecode-image-editor-marquee-tool](assets/makecode-image-editor-marquee-tool.gif)
+
+### Color Palette
+
+![makecode-image-editor-color-tool](assets/makecode-image-editor-color-tool.png)
+
+![makecode-image-editor-color-tool](assets/makecode-image-editor-color-tool.gif)
+
+### Color Shortcuts
+
+![makecode-image-editor-color-shortcuts](assets/makecode-image-editor-color-shortcuts.png)
+
+![makecode-image-editor-color-shortcuts](assets/makecode-image-editor-color-shortcuts.gif)
+
+### Flip/Rotate
+
+![makecode-image-editor-flip-rotate-tool](assets/makecode-image-editor-flip-rotate-tool.png)
+
+![makecode-image-editor-flip-rotate-tool](assets/makecode-image-editor-flip-rotate-tool.gif)
+
+### Canvas Size
+
+![makecode-image-editor-canvas-size](assets/makecode-image-editor-canvas-size.png)
+
+![makecode-image-editor-canvas-size](assets/makecode-image-editor-canvas-size.gif)
+
+### Undo/Redo
+
+![makecode-image-editor-undo-redo-tool](assets/makecode-image-editor-undo-redo-tool.png)
+
+![makecode-image-editor-undo-redo-tool](assets/makecode-image-editor-undo-redo-tool.gif)
+
+### Zoom
+
+![makecode-image-editor-zoom-tool](assets/makecode-image-editor-zoom-tool.png)
+
+![makecode-image-editor-zoom-tool](assets/makecode-image-editor-zoom-tool.gif)

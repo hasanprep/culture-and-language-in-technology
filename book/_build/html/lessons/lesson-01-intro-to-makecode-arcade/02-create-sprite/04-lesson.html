@@ -248,6 +248,16 @@
 <li class="toctree-l2"><a class="reference internal" href="06-vocabulary.html">Vocabulary</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03-create-background/00-intro.html">Creating a Background</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03-create-background/01-objectives.html">Objectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-create-background/02-materials.html">Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-create-background/03-opener.html">Opener</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-create-background/04-lesson-00.html">Lesson: A Custom Color Palette</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-create-background/04-lesson-01.html">Lesson: Creating a Background</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-create-background/05-lab.html">Lab:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-create-background/06-vocabulary.html">Vocabulary</a></li>
+</ul>
+</details></li>
 </ul>
 
     </div>
@@ -443,7 +453,22 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-image-editor">The Image Editor</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-image-editor">The Image Editor</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-paint-tool">The Paint Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-eraser-tool">The Eraser Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rectangle-tool">The Rectangle Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-fill-tool">The Fill Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-circle-tool">The Circle Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-line-tool">The Line Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-marquee-tool">The Marquee Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#color-palette">Color Palette</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#color-shortcuts">Color Shortcuts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flip-rotate">Flip/Rotate</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#canvas-size">Canvas Size</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#undo-redo">Undo/Redo</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zoom">Zoom</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -461,97 +486,72 @@ document.write(`
 <section id="the-image-editor">
 <h2>The Image Editor<a class="headerlink" href="#the-image-editor" title="Link to this heading">#</a></h2>
 <p><img alt="makecode-image-editor" src="../../../_images/makecode-image-editor.png" /></p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Label Number</p></th>
-<th class="head"><p>Item</p></th>
-<th class="head"><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>1</p></td>
-<td><p>Pencil size</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>2</p></td>
-<td><p>Pencil</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>3</p></td>
-<td><p>Eraser</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>4</p></td>
-<td><p>Rectangle</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>5</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>6</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>7</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>8</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>9</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>10</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>11</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>12</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>13</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>14</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>15</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>16</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>17</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>18</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p>19</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>20</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-</tbody>
-</table>
-</div>
+<section id="the-paint-tool">
+<h3>The Paint Tool<a class="headerlink" href="#the-paint-tool" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-paint-tool" src="../../../_images/makecode-image-editor-paint-tool.png" /></p>
+<p><img alt="makecode-image-editor-paint-tool" src="../../../_images/makecode-image-editor-paint-tool.gif" /></p>
+</section>
+<section id="the-eraser-tool">
+<h3>The Eraser Tool<a class="headerlink" href="#the-eraser-tool" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-eraser-tool" src="../../../_images/makecode-image-editor-eraser-tool.png" /></p>
+<p><img alt="makecode-image-editor-eraser-tool" src="../../../_images/makecode-image-editor-eraser-tool.gif" /></p>
+</section>
+<section id="the-rectangle-tool">
+<h3>The Rectangle Tool<a class="headerlink" href="#the-rectangle-tool" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-rectangle-tool" src="../../../_images/makecode-image-editor-rectangle-tool.png" /></p>
+<p><img alt="makecode-image-editor-rectangle-tool" src="../../../_images/makecode-image-editor-rectangle-tool.png" /></p>
+<p><img alt="makecode-image-editor-rectangle-tool" src="../../../_images/makecode-image-editor-rectangle-tool.gif" /></p>
+</section>
+<section id="the-fill-tool">
+<h3>The Fill Tool<a class="headerlink" href="#the-fill-tool" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-fill-tool" src="../../../_images/makecode-image-editor-fill-tool.png" /></p>
+<p><img alt="makecode-image-editor-fill-tool" src="../../../_images/makecode-image-editor-fill-tool.gif" /></p>
+</section>
+<section id="the-circle-tool">
+<h3>The Circle Tool<a class="headerlink" href="#the-circle-tool" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-circle-tool" src="../../../_images/makecode-image-editor-circle-tool.png" /></p>
+<p><img alt="makecode-image-editor-circle-tool" src="../../../_images/makecode-image-editor-circle-tool.gif" /></p>
+</section>
+<section id="the-line-tool">
+<h3>The Line Tool<a class="headerlink" href="#the-line-tool" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-line-tool" src="../../../_images/makecode-image-editor-line-tool.png" /></p>
+<p><img alt="makecode-image-editor-line-tool" src="../../../_images/makecode-image-editor-line-tool.gif" /></p>
+</section>
+<section id="the-marquee-tool">
+<h3>The Marquee Tool<a class="headerlink" href="#the-marquee-tool" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-marquee-tool" src="../../../_images/makecode-image-editor-marquee-tool.png" /></p>
+<p><img alt="makecode-image-editor-marquee-tool" src="../../../_images/makecode-image-editor-marquee-tool.gif" /></p>
+</section>
+<section id="color-palette">
+<h3>Color Palette<a class="headerlink" href="#color-palette" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-color-tool" src="../../../_images/makecode-image-editor-color-tool.png" /></p>
+<p><img alt="makecode-image-editor-color-tool" src="../../../_images/makecode-image-editor-color-tool.gif" /></p>
+</section>
+<section id="color-shortcuts">
+<h3>Color Shortcuts<a class="headerlink" href="#color-shortcuts" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-color-shortcuts" src="../../../_images/makecode-image-editor-color-shortcuts.png" /></p>
+<p><img alt="makecode-image-editor-color-shortcuts" src="../../../_images/makecode-image-editor-color-shortcuts.gif" /></p>
+</section>
+<section id="flip-rotate">
+<h3>Flip/Rotate<a class="headerlink" href="#flip-rotate" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-flip-rotate-tool" src="../../../_images/makecode-image-editor-flip-rotate-tool.png" /></p>
+<p><img alt="makecode-image-editor-flip-rotate-tool" src="../../../_images/makecode-image-editor-flip-rotate-tool.gif" /></p>
+</section>
+<section id="canvas-size">
+<h3>Canvas Size<a class="headerlink" href="#canvas-size" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-canvas-size" src="../../../_images/makecode-image-editor-canvas-size.png" /></p>
+<p><img alt="makecode-image-editor-canvas-size" src="../../../_images/makecode-image-editor-canvas-size.gif" /></p>
+</section>
+<section id="undo-redo">
+<h3>Undo/Redo<a class="headerlink" href="#undo-redo" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-undo-redo-tool" src="../../../_images/makecode-image-editor-undo-redo-tool.png" /></p>
+<p><img alt="makecode-image-editor-undo-redo-tool" src="../../../_images/makecode-image-editor-undo-redo-tool.gif" /></p>
+</section>
+<section id="zoom">
+<h3>Zoom<a class="headerlink" href="#zoom" title="Link to this heading">#</a></h3>
+<p><img alt="makecode-image-editor-zoom-tool" src="../../../_images/makecode-image-editor-zoom-tool.png" /></p>
+<p><img alt="makecode-image-editor-zoom-tool" src="../../../_images/makecode-image-editor-zoom-tool.gif" /></p>
+</section>
 </section>
 </section>
 
@@ -619,7 +619,22 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-image-editor">The Image Editor</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-image-editor">The Image Editor</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-paint-tool">The Paint Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-eraser-tool">The Eraser Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rectangle-tool">The Rectangle Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-fill-tool">The Fill Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-circle-tool">The Circle Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-line-tool">The Line Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-marquee-tool">The Marquee Tool</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#color-palette">Color Palette</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#color-shortcuts">Color Shortcuts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flip-rotate">Flip/Rotate</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#canvas-size">Canvas Size</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#undo-redo">Undo/Redo</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zoom">Zoom</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
