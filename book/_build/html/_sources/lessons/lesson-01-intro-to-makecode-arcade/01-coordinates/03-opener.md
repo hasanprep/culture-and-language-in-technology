@@ -9,7 +9,8 @@ In this activity, you will learn how to use coordinates by observing points on a
 ### 1. Observe the Plot
 
 Look at the plot provided. You will see several points labeled A through P.
-<iframe src="https://www.desmos.com/calculator/vliq9lnkn0?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+![desmos-hasan](assets/desmos-hasan.png)
 
 ### 2. Determine the Coordinates of Each Point
 

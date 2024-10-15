@@ -14,7 +14,9 @@ In this lesson, we will represent colors using hex color codes. The RCB color sy
 
 ### The Hex Color Code System
 
-Hex color codes are a way of representing colors in computer science using a six-digit code. The code is written with a “#” symbol followed by six characters, which are a combination of numbers (0-9) and letters (A-F). Each pair of characters represents the color's intensity of red, green, and blue (RGB). For example, the hex code “#FF5733” means the red component is set to the maximum value (FF), while green (57) and blue (33) are lower. This system allows for precise color selection and is widely used in web development and digital design.
+Hex color codes are a way of representing colors in computer science using a six-digit code. The code is written with a “#” symbol followed by six characters, which are a combination of numbers (0-9) and letters (A-F). Each pair of characters represents the color's intensity of red, green, and blue (RGB). For example, the hex code “#FF5733” means the red component is set to the maximum value (FF), while green (57) and blue (33) are lower. This system allows for precise color selection and is widely used in web development and digital design. This color (#FF5733) is displayed below:
+
+![hex-color-codes-00](assets/hex-color-codes-00.png)
 
 Here are some examples of standard colors:
 
@@ -23,6 +25,11 @@ Here are some examples of standard colors:
 ![color-code-venn](assets/color-code-venn.png)
 
 ![hex-color-codes-02](assets/hex-color-codes-02.png)
+
+<form action="/action_page.php">
+  <label for="favcolor">Select a color. Toggle the dropdown menu to view the color in HEX:<br></label><br>
+  <input type="color" id="favcolor" name="favcolor" value="#72489c">
+</form>
 
 ## Find an Image of the Sonoran Desert
 
@@ -47,3 +54,4 @@ Here are some examples of standard colors:
 ![makecode-create-palette-03](assets/makecode-create-palette-03.png)
 
 ![makecode-create-palette-04](assets/makecode-create-palette-04.png)
+

@@ -2,11 +2,7 @@
 
 # Lesson: 
 
-## What is a Programming Language?
-
-A **programming language** is a system of communication used to give instructions to a computer. It allows programmers to write code that tells the computer what tasks to perform, such as calculations, data processing, or running applications. Programming languages use specific syntax and rules to structure these instructions, making them understandable by both humans and machines. There are different types of programming languages, such as block-based, text-based, and scripting languages, each designed for different purposes and levels of complexity.
-
-### Types of Programming Languages
+## Types of Programming Languages
 
 There are several types of programming languages. Each type has different functionality to perform specific tasks. Here are some of the types of programming languages:
 

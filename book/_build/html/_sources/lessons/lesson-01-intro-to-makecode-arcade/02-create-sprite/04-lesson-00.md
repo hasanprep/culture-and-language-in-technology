@@ -1,6 +1,6 @@
 ![header](assets/header.png)
 
-# Lesson: Creating a Character Sprite
+# Lesson: Using the Image Editor
 
 ## The Image Editor
 

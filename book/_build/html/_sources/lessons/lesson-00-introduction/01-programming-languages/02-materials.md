@@ -2,5 +2,4 @@
 
 # Materials
 
-> -
-> -
+- 1 PC or laptop

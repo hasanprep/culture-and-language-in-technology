@@ -16,13 +16,15 @@ TODO:word in O'odham for square
 ## O'odham Vocabulary Audio
 
 
-
 ## Computer Science Vocabulary
 
 ```{glossary}
 
 Cartesian plane
     a two-dimensional grid formed by the intersection of a horizontal line (x-axis) and a vertical line (y-axis), used to plot and describe the location of points using coordinate pairs (x, y).
+
+coordinate
+    
 
 coordinate point
     a pair of numbers, written as (x, y), that represents the exact location of a point on a grid. The x-value shows the position along the horizontal axis, and the y-value shows the position along the vertical axis.

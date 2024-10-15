@@ -195,19 +195,12 @@
 <li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/01-programming-languages/02-materials.html">Materials</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/01-programming-languages/03-opener.html">Opener</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/01-programming-languages/04-lesson.html">Lesson:</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/01-programming-languages/05-lab.html">Lab:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/01-programming-languages/05-lab.html">Lab: Exploring the Use of Programming Languages</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/01-programming-languages/06-vocabulary.html">Vocabulary</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../lesson-00-introduction/02-makecode-arcade/00-intro.html">Introduction to MakeCode Arcade</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/02-makecode-arcade/01-objectives.html">Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/02-makecode-arcade/02-materials.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/02-makecode-arcade/03-opener.html">Opener</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/02-makecode-arcade/04-lesson.html">Lesson: The MakeCode Arcade Environment and the ELECFREAKS Retro Arcade</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/02-makecode-arcade/05-lab.html">Lab:</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/02-makecode-arcade/06-vocabulary.html">Vocabulary</a></li>
-</ul>
-</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lesson-00-introduction/02-makecode-arcade/00-intro.html">Introduction to MakeCode Arcade</a></li>
+
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../lesson-00-introduction/03-makecode-microbit/00-intro.html">Introduction to MakeCode for micro:bit</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/03-makecode-microbit/01-objectives.html">Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lesson-00-introduction/03-makecode-microbit/02-materials.html">Materials</a></li>
@@ -220,7 +213,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Unit 1: Introduction to MakeCode Arcade</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../00-makecode-arcade/00-intro.html">Introduction to the MakeCode Arcade Development Environment</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../00-makecode-arcade/00-intro.html">The MakeCode Environment</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../00-makecode-arcade/01-objectives.html">Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../00-makecode-arcade/02-materials.html">Materials</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../00-makecode-arcade/03-opener.html">Opener</a></li>
@@ -243,7 +236,8 @@
 <li class="toctree-l2"><a class="reference internal" href="01-objectives.html">Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="02-materials.html">Materials</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03-opener.html">Opener</a></li>
-<li class="toctree-l2"><a class="reference internal" href="04-lesson.html">Lesson: Creating a Character Sprite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04-lesson-00.html">Lesson: Using the Image Editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04-lesson-01.html">Lesson: Creating a Sprite</a></li>
 <li class="toctree-l2"><a class="reference internal" href="05-lab.html">Lab: Creating a Self Portrait Sprite</a></li>
 <li class="toctree-l2"><a class="reference internal" href="06-vocabulary.html">Vocabulary</a></li>
 </ul>
@@ -430,7 +424,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -446,6 +442,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-sprite">What is a Sprite?</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -458,6 +462,11 @@ document.write(`
   <p><img alt="header" src="../../../_images/header6.png" /></p>
 <section class="tex2jax_ignore mathjax_ignore" id="creating-sprites">
 <h1>Creating Sprites<a class="headerlink" href="#creating-sprites" title="Link to this heading">#</a></h1>
+<p>In this section, you will explore how to create visual designs for your game by using the image editor in MakeCode Arcade. The image editor allows you to create custom characters and objects that can be part of your game’s world. Today, you will get creative by making a self-portrait sprite, a personalized design that will represent you in the game. This is your chance to express yourself visually while learning the basics of game design.</p>
+<section id="what-is-a-sprite">
+<h2>What is a Sprite?<a class="headerlink" href="#what-is-a-sprite" title="Link to this heading">#</a></h2>
+<p>A <strong>sprite</strong> is a graphic or image that represents characters, objects, or elements in a game. Sprites are typically movable and can interact with other elements in the game, such as obstacles or enemies. They are an essential part of game development, allowing developers to bring visual elements into the game’s environment. By designing your own sprite, you can create custom characters and objects that will appear and move around in your game world.</p>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -516,6 +525,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-sprite">What is a Sprite?</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
