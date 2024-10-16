@@ -6,74 +6,79 @@ root: intro
 parts:
   - caption: "Unit 0: Introduction"
     chapters:
-    - file: lessons/lesson-00-introduction/00-algorithms/00-intro
+    - file: units/unit-00-introduction/00-algorithms/00-intro
       sections:
-      - file: lessons/lesson-00-introduction/00-algorithms/01-objectives
-      - file: lessons/lesson-00-introduction/00-algorithms/02-materials
-      - file: lessons/lesson-00-introduction/00-algorithms/03-opener
-      - file: lessons/lesson-00-introduction/00-algorithms/04-lesson
-      - file: lessons/lesson-00-introduction/00-algorithms/05-lab
-      - file: lessons/lesson-00-introduction/00-algorithms/06-vocabulary
-    - file: lessons/lesson-00-introduction/01-programming-languages/00-intro
+      - file: units/unit-00-introduction/00-algorithms/01-objectives
+      - file: units/unit-00-introduction/00-algorithms/02-materials
+      - file: units/unit-00-introduction/00-algorithms/03-opener
+      - file: units/unit-00-introduction/00-algorithms/04-lesson
+      - file: units/unit-00-introduction/00-algorithms/05-lab
+      - file: units/unit-00-introduction/00-algorithms/06-vocabulary
+    - file: units/unit-00-introduction/01-programming-languages/00-intro
       sections:
-      - file: lessons/lesson-00-introduction/01-programming-languages/01-objectives
-      - file: lessons/lesson-00-introduction/01-programming-languages/02-materials
-      - file: lessons/lesson-00-introduction/01-programming-languages/03-opener
-      - file: lessons/lesson-00-introduction/01-programming-languages/04-lesson
-      - file: lessons/lesson-00-introduction/01-programming-languages/05-lab
-      - file: lessons/lesson-00-introduction/01-programming-languages/06-vocabulary
-    - file: lessons/lesson-00-introduction/02-makecode-arcade/00-intro
+      - file: units/unit-00-introduction/01-programming-languages/01-objectives
+      - file: units/unit-00-introduction/01-programming-languages/02-materials
+      - file: units/unit-00-introduction/01-programming-languages/03-opener
+      - file: units/unit-00-introduction/01-programming-languages/04-lesson
+      - file: units/unit-00-introduction/01-programming-languages/05-lab
+      - file: units/unit-00-introduction/01-programming-languages/06-vocabulary
+    - file: units/unit-00-introduction/02-makecode-arcade/00-intro
       sections: 
-      - file: lessons/lesson-00-introduction/02-makecode-arcade/01-objectives
-      - file: lessons/lesson-00-introduction/02-makecode-arcade/02-materials
-      - file: lessons/lesson-00-introduction/02-makecode-arcade/03-opener
-      - file: lessons/lesson-00-introduction/02-makecode-arcade/04-lesson
-      - file: lessons/lesson-00-introduction/02-makecode-arcade/05-lab
-      - file: lessons/lesson-00-introduction/02-makecode-arcade/06-vocabulary
-    - file: lessons/lesson-00-introduction/03-makecode-microbit/00-intro
+      - file: units/unit-00-introduction/02-makecode-arcade/01-objectives
+      - file: units/unit-00-introduction/02-makecode-arcade/02-materials
+      - file: units/unit-00-introduction/02-makecode-arcade/03-opener
+      - file: units/unit-00-introduction/02-makecode-arcade/04-lesson
+      - file: units/unit-00-introduction/02-makecode-arcade/05-lab
+      - file: units/unit-00-introduction/02-makecode-arcade/06-vocabulary
+    - file: units/unit-00-introduction/03-makecode-microbit/00-intro
       sections: 
-      - file: lessons/lesson-00-introduction/03-makecode-microbit/01-objectives
-      - file: lessons/lesson-00-introduction/03-makecode-microbit/02-materials
-      - file: lessons/lesson-00-introduction/03-makecode-microbit/03-opener
-      - file: lessons/lesson-00-introduction/03-makecode-microbit/04-lesson
-      - file: lessons/lesson-00-introduction/03-makecode-microbit/05-lab
-      - file: lessons/lesson-00-introduction/03-makecode-microbit/06-vocabulary
+      - file: units/unit-00-introduction/03-makecode-microbit/01-objectives
+      - file: units/unit-00-introduction/03-makecode-microbit/02-materials
+      - file: units/unit-00-introduction/03-makecode-microbit/03-opener
+      - file: units/unit-00-introduction/03-makecode-microbit/04-lesson
+      - file: units/unit-00-introduction/03-makecode-microbit/05-lab
+      - file: units/unit-00-introduction/03-makecode-microbit/06-vocabulary
   - caption: "Unit 1: Introduction to MakeCode Arcade"
     chapters:
-    - file: lessons/lesson-01-intro-to-makecode-arcade/00-makecode-arcade/00-intro
+    - file: units/unit-01-intro-to-makecode-arcade/00-makecode-arcade/00-intro
       sections:
-      - file: lessons/lesson-01-intro-to-makecode-arcade/00-makecode-arcade/01-objectives
-      - file: lessons/lesson-01-intro-to-makecode-arcade/00-makecode-arcade/02-materials
-      - file: lessons/lesson-01-intro-to-makecode-arcade/00-makecode-arcade/03-opener
-      - file: lessons/lesson-01-intro-to-makecode-arcade/00-makecode-arcade/04-lesson
-      - file: lessons/lesson-01-intro-to-makecode-arcade/00-makecode-arcade/05-lab
-      - file: lessons/lesson-01-intro-to-makecode-arcade/00-makecode-arcade/06-vocabulary
-    - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/00-intro
+      - file: units/unit-01-intro-to-makecode-arcade/00-makecode-arcade/01-objectives
+      - file: units/unit-01-intro-to-makecode-arcade/00-makecode-arcade/02-materials
+      - file: units/unit-01-intro-to-makecode-arcade/00-makecode-arcade/03-opener
+      - file: units/unit-01-intro-to-makecode-arcade/00-makecode-arcade/04-lesson
+      - file: units/unit-01-intro-to-makecode-arcade/00-makecode-arcade/05-lab
+      - file: units/unit-01-intro-to-makecode-arcade/00-makecode-arcade/06-vocabulary
+    - file: units/unit-01-intro-to-makecode-arcade/01-coordinates/00-intro
       sections:
-      - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/01-objectives
-      - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/02-materials
-      - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/03-opener
-      - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/04-review
-      - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/05-lesson
-      - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/06-lab
-      - file: lessons/lesson-01-intro-to-makecode-arcade/01-coordinates/07-vocabulary
-    - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/00-intro
+      - file: units/unit-01-intro-to-makecode-arcade/01-coordinates/01-objectives
+      - file: units/unit-01-intro-to-makecode-arcade/01-coordinates/02-materials
+      - file: units/unit-01-intro-to-makecode-arcade/01-coordinates/03-opener
+      - file: units/unit-01-intro-to-makecode-arcade/01-coordinates/04-review
+      - file: units/unit-01-intro-to-makecode-arcade/01-coordinates/05-lesson
+      - file: units/unit-01-intro-to-makecode-arcade/01-coordinates/06-lab
+      - file: units/unit-01-intro-to-makecode-arcade/01-coordinates/07-vocabulary
+    - file: units/unit-01-intro-to-makecode-arcade/02-create-sprite/00-intro
       sections:
-      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/01-objectives
-      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/02-materials
-      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/03-opener
-      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/04-lesson-00
-      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/04-lesson-01
-      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/05-lab
-      - file: lessons/lesson-01-intro-to-makecode-arcade/02-create-sprite/06-vocabulary
-    - file: lessons/lesson-01-intro-to-makecode-arcade/03-create-background/00-intro
+      - file: units/unit-01-intro-to-makecode-arcade/02-create-sprite/01-objectives
+      - file: units/unit-01-intro-to-makecode-arcade/02-create-sprite/02-materials
+      - file: units/unit-01-intro-to-makecode-arcade/02-create-sprite/03-opener
+      - file: units/unit-01-intro-to-makecode-arcade/02-create-sprite/04-lesson-00
+      - file: units/unit-01-intro-to-makecode-arcade/02-create-sprite/04-lesson-01
+      - file: units/unit-01-intro-to-makecode-arcade/02-create-sprite/05-lab
+      - file: units/unit-01-intro-to-makecode-arcade/02-create-sprite/06-vocabulary
+    - file: units/unit-01-intro-to-makecode-arcade/03-create-background/00-intro
       sections:
-      - file: lessons/lesson-01-intro-to-makecode-arcade/03-create-background/01-objectives
-      - file: lessons/lesson-01-intro-to-makecode-arcade/03-create-background/02-materials
-      - file: lessons/lesson-01-intro-to-makecode-arcade/03-create-background/03-opener
-      - file: lessons/lesson-01-intro-to-makecode-arcade/03-create-background/04-lesson-00
-      - file: lessons/lesson-01-intro-to-makecode-arcade/03-create-background/04-lesson-01
-      - file: lessons/lesson-01-intro-to-makecode-arcade/03-create-background/05-lab
-      - file: lessons/lesson-01-intro-to-makecode-arcade/03-create-background/06-vocabulary    
+      - file: units/unit-01-intro-to-makecode-arcade/03-create-background/01-objectives
+      - file: units/unit-01-intro-to-makecode-arcade/03-create-background/02-materials
+      - file: units/unit-01-intro-to-makecode-arcade/03-create-background/03-opener
+      - file: units/unit-01-intro-to-makecode-arcade/03-create-background/04-lesson-00
+      - file: units/unit-01-intro-to-makecode-arcade/03-create-background/04-lesson-01
+      - file: units/unit-01-intro-to-makecode-arcade/03-create-background/05-lab
+      - file: units/unit-01-intro-to-makecode-arcade/03-create-background/06-vocabulary
+  - caption: "Unit 2: Sprites"
+    chapters:
+    - file: units/unit-03-sprites/00-types-of-sprites/00-intro
+
+    
 
 
