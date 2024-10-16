@@ -4,6 +4,12 @@
 
 In the lesson, you will use the following materials:
 
-> - 1 PC or laptop
-> - 1 BBC micro:bit
-> - 1 MICRO-USB cable
+<blockquote>
+  <ul style="list-style-type:circle;">
+    <br>
+    <li>1 PC or laptop</li>
+    <li>1 BBC micro:bit</li>
+    <li>1 MICRO-USB cable</li>
+    <br>
+  </ul>
+</blockquote>
