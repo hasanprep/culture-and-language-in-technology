@@ -16,35 +16,41 @@ The remaining points going counterclockwise are `(0, 119)` in the lower-left cor
 
 ---
 
-## Practice: Drawing a Square in MakeCode
+## Practice: Drawing a Rectangle in MakeCode
 
-**1. 
+### 1. Plan the Plot of the Rectangle
+
+Use the MakeCode Arcade Screen Grid to plot the four points of each corner of the rectangle.
+
+![makecode-arcade-draw-square-grid](assets/makecode-arcade-draw-square-grid.png)
 
 ![makecode-arcade-draw-square](assets/makecode-arcade-draw-square.png)
 
-### Algorithm TODO
+To produce the 
+
+### Algorithm 
+
+1. Draw line from (0, 0) to (0, 119)
 
 ![makecode-arcade-draw-square-algorithm-01](assets/makecode-arcade-draw-square-algorithm-01.png)
 
 
+2. Draw line from (0, 119) to (159, 119)
 
 ![makecode-arcade-draw-square-algorithm-02](assets/makecode-arcade-draw-square-algorithm-02.png)
 
+3. Draw line from (159, 119) to (159, 0)
 
 
 ![makecode-arcade-draw-square-algorithm-03](assets/makecode-arcade-draw-square-algorithm-03.png)
 
+4. Draw line from (159, 0) to (0, 0)
 
 
 ![makecode-arcade-draw-square-algorithm-04](assets/makecode-arcade-draw-square-algorithm-04.png)
 
 
-
-
-
-![makecode-arcade-draw-square-grid](assets/makecode-arcade-draw-square-grid.png)
-
-
+![makecode-arcade-rectangle-code](assets/makecode-arcade-rectangle-code.png)
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://arcade.makecode.com/#pub:S11419-05415-57671-83863" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 

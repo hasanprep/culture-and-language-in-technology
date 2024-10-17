@@ -199,8 +199,15 @@
 <li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/01-programming-languages/06-vocabulary.html">Vocabulary</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/00-intro.html">Introduction to MakeCode Arcade</a></li>
-
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/00-intro.html">Introduction to MakeCode Arcade</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/01-objectives.html">Objectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/02-materials.html">Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/03-opener.html">Opener</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/04-lesson.html">Lesson: The MakeCode Arcade Environment and the ELECFREAKS Retro Arcade</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/05-lab.html">Lab: TODO</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/06-vocabulary.html">Vocabulary</a></li>
+</ul>
+</details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../unit-00-introduction/03-makecode-microbit/00-intro.html">Introduction to MakeCode for micro:bit</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/03-makecode-microbit/01-objectives.html">Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/03-makecode-microbit/02-materials.html">Materials</a></li>
@@ -255,7 +262,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Unit 2: Sprites</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../unit-03-sprites/00-types-of-sprites/00-intro.html">Sprites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../unit-02-sprites/00-types-of-sprites/00-intro.html">Sprites</a></li>
 </ul>
 
     </div>
@@ -452,8 +459,9 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-makecode-coordinate-system">The MakeCode Coordinate System</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-drawing-a-square-in-makecode">Practice: Drawing a Square in MakeCode</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#algorithm-todo">Algorithm TODO</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-drawing-a-rectangle-in-makecode">Practice: Drawing a Rectangle in MakeCode</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-the-plot-of-the-rectangle">1. Plan the Plot of the Rectangle</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#algorithm">Algorithm</a></li>
 </ul>
 </li>
 </ul>
@@ -479,17 +487,34 @@ document.write(`
 <p><img alt="makecode-arcade-screen-coordinates" src="../../../_images/makecode-arcade-screen-coordinates.png" /></p>
 </section>
 <hr class="docutils" />
-<section id="practice-drawing-a-square-in-makecode">
-<h2>Practice: Drawing a Square in MakeCode<a class="headerlink" href="#practice-drawing-a-square-in-makecode" title="Link to this heading">#</a></h2>
-<p>**1.</p>
-<p><img alt="makecode-arcade-draw-square" src="../../../_images/makecode-arcade-draw-square.png" /></p>
-<section id="algorithm-todo">
-<h3>Algorithm TODO<a class="headerlink" href="#algorithm-todo" title="Link to this heading">#</a></h3>
-<p><img alt="makecode-arcade-draw-square-algorithm-01" src="../../../_images/makecode-arcade-draw-square-algorithm-01.png" /></p>
-<p><img alt="makecode-arcade-draw-square-algorithm-02" src="../../../_images/makecode-arcade-draw-square-algorithm-02.png" /></p>
-<p><img alt="makecode-arcade-draw-square-algorithm-03" src="../../../_images/makecode-arcade-draw-square-algorithm-03.png" /></p>
-<p><img alt="makecode-arcade-draw-square-algorithm-04" src="../../../_images/makecode-arcade-draw-square-algorithm-04.png" /></p>
+<section id="practice-drawing-a-rectangle-in-makecode">
+<h2>Practice: Drawing a Rectangle in MakeCode<a class="headerlink" href="#practice-drawing-a-rectangle-in-makecode" title="Link to this heading">#</a></h2>
+<section id="plan-the-plot-of-the-rectangle">
+<h3>1. Plan the Plot of the Rectangle<a class="headerlink" href="#plan-the-plot-of-the-rectangle" title="Link to this heading">#</a></h3>
+<p>Use the MakeCode Arcade Screen Grid to plot the four points of each corner of the rectangle.</p>
 <p><img alt="makecode-arcade-draw-square-grid" src="../../../_images/makecode-arcade-draw-square-grid.png" /></p>
+<p><img alt="makecode-arcade-draw-square" src="../../../_images/makecode-arcade-draw-square.png" /></p>
+<p>To produce the</p>
+</section>
+<section id="algorithm">
+<h3>Algorithm<a class="headerlink" href="#algorithm" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Draw line from (0, 0) to (0, 119)</p></li>
+</ol>
+<p><img alt="makecode-arcade-draw-square-algorithm-01" src="../../../_images/makecode-arcade-draw-square-algorithm-01.png" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Draw line from (0, 119) to (159, 119)</p></li>
+</ol>
+<p><img alt="makecode-arcade-draw-square-algorithm-02" src="../../../_images/makecode-arcade-draw-square-algorithm-02.png" /></p>
+<ol class="arabic simple" start="3">
+<li><p>Draw line from (159, 119) to (159, 0)</p></li>
+</ol>
+<p><img alt="makecode-arcade-draw-square-algorithm-03" src="../../../_images/makecode-arcade-draw-square-algorithm-03.png" /></p>
+<ol class="arabic simple" start="4">
+<li><p>Draw line from (159, 0) to (0, 0)</p></li>
+</ol>
+<p><img alt="makecode-arcade-draw-square-algorithm-04" src="../../../_images/makecode-arcade-draw-square-algorithm-04.png" /></p>
+<p><img alt="makecode-arcade-rectangle-code" src="../../../_images/makecode-arcade-rectangle-code.png" /></p>
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://arcade.makecode.com/#pub:S11419-05415-57671-83863" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 </section>
 </section>
@@ -560,8 +585,9 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-makecode-coordinate-system">The MakeCode Coordinate System</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-drawing-a-square-in-makecode">Practice: Drawing a Square in MakeCode</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#algorithm-todo">Algorithm TODO</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-drawing-a-rectangle-in-makecode">Practice: Drawing a Rectangle in MakeCode</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-the-plot-of-the-rectangle">1. Plan the Plot of the Rectangle</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#algorithm">Algorithm</a></li>
 </ul>
 </li>
 </ul>

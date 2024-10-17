@@ -199,8 +199,15 @@
 <li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/01-programming-languages/06-vocabulary.html">Vocabulary</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/00-intro.html">Introduction to MakeCode Arcade</a></li>
-
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/00-intro.html">Introduction to MakeCode Arcade</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/01-objectives.html">Objectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/02-materials.html">Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/03-opener.html">Opener</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/04-lesson.html">Lesson: The MakeCode Arcade Environment and the ELECFREAKS Retro Arcade</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/05-lab.html">Lab: TODO</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/02-makecode-arcade/06-vocabulary.html">Vocabulary</a></li>
+</ul>
+</details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../unit-00-introduction/03-makecode-microbit/00-intro.html">Introduction to MakeCode for micro:bit</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/03-makecode-microbit/01-objectives.html">Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../unit-00-introduction/03-makecode-microbit/02-materials.html">Materials</a></li>
@@ -255,7 +262,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Unit 2: Sprites</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../unit-03-sprites/00-types-of-sprites/00-intro.html">Sprites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../unit-02-sprites/00-types-of-sprites/00-intro.html">Sprites</a></li>
 </ul>
 
     </div>
@@ -455,10 +462,9 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectives">Objectives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#materials">Materials</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure">Procedure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gather-all-materials">1. Gather All Materials</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-your-plot-of-a-ha-san">2. Plan Your  Plot of a Ha:ṣañ</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-your-ha-san-plot-algorithm">3. Write Your Ha:ṣañ Plot Algorithm</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-the-code-for-your-ha-san-plot">4. Write the Code for Your Ha:ṣañ Plot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-your-plot-of-a-ha-san">1. Plan Your Plot of a Ha:ṣañ</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-your-ha-san-plot-algorithm">2. Write Your Ha:ṣañ Plot Algorithm</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-the-code-for-your-ha-san-plot">3. Write the Code for Your Ha:ṣañ Plot</a></li>
 </ul>
 </li>
 </ul>
@@ -486,43 +492,46 @@ document.write(`
 <section id="objectives">
 <h2>Objectives<a class="headerlink" href="#objectives" title="Link to this heading">#</a></h2>
 <blockquote>
-<div><ul class="simple">
-<li></li>
-</ul>
-</div></blockquote>
+  <ul style="list-style-type:circle;">
+    <br>
+    <li>Understand how the coordinate system in MakeCode Arcade relates to the Cartesian plane.</li>
+    <li>Create and plot simple line segments by defining pairs of coordinate points in MakeCode Arcade.</li>
+    <li>Use MakeCode Arcade’s tools to visualize and test the plotted line segments in a game or interactive project.</li>
+    <br>
+  </ul>
+</blockquote>
 </section>
 <section id="materials">
 <h2>Materials<a class="headerlink" href="#materials" title="Link to this heading">#</a></h2>
 <blockquote>
-<div><ul class="simple">
-<li><p>1 PC or laptop</p></li>
-<li><p>1 ELECFREAKS Retro Arcade</p></li>
-<li><p>1 USB-C cable</p></li>
-<li><p>1 MakeCode Arcade Screen Grid</p></li>
-<li><p>1 Sheet of paper</p></li>
-<li><p>1 Pencil</p></li>
-</ul>
-</div></blockquote>
+  <ul style="list-style-type:circle;">
+    <br>
+    <li>1 PC or laptop</li>
+    <li>1 ELECFREAKS Retro Arcade</li>
+    <li>1 USB-C cable</li>
+    <li>1 MakeCode Arcade Screen Grid</li>
+    <li>1 Sheet of paper to write the algorithm</li>
+    <li>1 Pencil</li>
+    <br>
+  </ul>
+</blockquote>
 </section>
 <section id="procedure">
 <h2>Procedure<a class="headerlink" href="#procedure" title="Link to this heading">#</a></h2>
-<section id="gather-all-materials">
-<h3>1. Gather All Materials<a class="headerlink" href="#gather-all-materials" title="Link to this heading">#</a></h3>
-<p>TODO</p>
-</section>
 <section id="plan-your-plot-of-a-ha-san">
-<h3>2. Plan Your  Plot of a Ha:ṣañ<a class="headerlink" href="#plan-your-plot-of-a-ha-san" title="Link to this heading">#</a></h3>
+<h3>1. Plan Your Plot of a Ha:ṣañ<a class="headerlink" href="#plan-your-plot-of-a-ha-san" title="Link to this heading">#</a></h3>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>The following example illustrates the process. <strong>You must plan your own ha:ṣañ</strong>.</p>
+<p>The following example illustrates the process. <strong>You must plan your own ha:ṣañ</strong><br>Do not use the example for your lab.</p>
 </div>
+<p>Use the MakeCode Arcade Screen Grid to plot the points of your ha:ṣañ as demonstrated below.</p>
 <p><img alt="makecode-arcade-draw-hasan-grid" src="../../../_images/makecode-arcade-draw-hasan-grid.png" /></p>
 </section>
 <section id="write-your-ha-san-plot-algorithm">
-<h3>3. Write Your Ha:ṣañ Plot Algorithm<a class="headerlink" href="#write-your-ha-san-plot-algorithm" title="Link to this heading">#</a></h3>
+<h3>2. Write Your Ha:ṣañ Plot Algorithm<a class="headerlink" href="#write-your-ha-san-plot-algorithm" title="Link to this heading">#</a></h3>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>The following example illustrates the process. <strong>You must write your own algorithm</strong>.</p>
+<p>The following example illustrates the process. <strong>You must write your own algorithm</strong>.<br>Do not use the example for your lab.</p>
 </div>
 <ol class="arabic simple">
 <li><p>Draw line from (85, 25) to (75, 25)</p></li>
@@ -544,13 +553,15 @@ document.write(`
 </ol>
 </section>
 <section id="write-the-code-for-your-ha-san-plot">
-<h3>4. Write the Code for Your Ha:ṣañ Plot<a class="headerlink" href="#write-the-code-for-your-ha-san-plot" title="Link to this heading">#</a></h3>
+<h3>3. Write the Code for Your Ha:ṣañ Plot<a class="headerlink" href="#write-the-code-for-your-ha-san-plot" title="Link to this heading">#</a></h3>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>The following example is just an example to illustrate the process. <strong>You must write your own code</strong>.</p>
+<p>The following example is just an example to illustrate the process. <strong>You must write your own code</strong><br>Do not use the example for your lab.</p>
 </div>
-<p><img alt="makecode-arcade-draw-hasan-code" src="../../../_images/makecode-arcade-draw-hasan-code.png" /></p>
+<p>Use the MakeCode Arcade Editor below to write your code. Duplicate the <code class="docutils literal notranslate"><span class="pre">draw</span> <span class="pre">line</span></code> block a
+<img alt="makecode-arcade-draw-hasan-code" src="../../../_images/makecode-arcade-draw-hasan-code.png" /></p>
 <p><img alt="makecode-arcade-hasan-plotting-lab-example" src="../../../_images/makecode-arcade-hasan-plotting-lab-example.png" /></p>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://arcade.makecode.com/#pub:S75554-56427-19891-07767" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 </section>
 </section>
 </section>
@@ -623,10 +634,9 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectives">Objectives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#materials">Materials</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure">Procedure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gather-all-materials">1. Gather All Materials</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-your-plot-of-a-ha-san">2. Plan Your  Plot of a Ha:ṣañ</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-your-ha-san-plot-algorithm">3. Write Your Ha:ṣañ Plot Algorithm</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-the-code-for-your-ha-san-plot">4. Write the Code for Your Ha:ṣañ Plot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-your-plot-of-a-ha-san">1. Plan Your Plot of a Ha:ṣañ</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-your-ha-san-plot-algorithm">2. Write Your Ha:ṣañ Plot Algorithm</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-the-code-for-your-ha-san-plot">3. Write the Code for Your Ha:ṣañ Plot</a></li>
 </ul>
 </li>
 </ul>
