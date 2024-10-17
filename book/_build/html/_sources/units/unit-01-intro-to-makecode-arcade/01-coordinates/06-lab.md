@@ -12,16 +12,30 @@ This lab contains a complete example for reference only. Do not use this as your
 
 ## Objectives
 
-> - 
+<blockquote>
+  <ul style="list-style-type:circle;">
+    <br>
+    <li>Understand how the coordinate system in MakeCode Arcade relates to the Cartesian plane.</li>
+    <li>Create and plot simple line segments by defining pairs of coordinate points in MakeCode Arcade.</li>
+    <li>Use MakeCode Arcade’s tools to visualize and test the plotted line segments in a game or interactive project.</li>
+    <br>
+  </ul>
+</blockquote>
 
 ## Materials
 
-> - 1 PC or laptop
-> - 1 ELECFREAKS Retro Arcade
-> - 1 USB-C cable
-> - 1 MakeCode Arcade Screen Grid
-> - 1 Sheet of paper
-> - 1 Pencil
+<blockquote>
+  <ul style="list-style-type:circle;">
+    <br>
+    <li>1 PC or laptop</li>
+    <li>1 ELECFREAKS Retro Arcade</li>
+    <li>1 USB-C cable</li>
+    <l1>1 MakeCode Arcade Screen Grid</li>
+    <l1>1 Sheet of paper to write the algorithm</li>
+    <l1>1 Pencil</li>
+    <br>
+  </ul>
+</blockquote>
 
 ## Procedure
 

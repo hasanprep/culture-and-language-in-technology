@@ -77,7 +77,7 @@ parts:
       - file: units/unit-01-intro-to-makecode-arcade/03-create-background/06-vocabulary
   - caption: "Unit 2: Sprites"
     chapters:
-    - file: units/unit-03-sprites/00-types-of-sprites/00-intro
+    - file: units/unit-02-sprites/00-types-of-sprites/00-intro
 
     
 
