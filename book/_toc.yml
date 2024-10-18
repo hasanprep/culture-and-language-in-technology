@@ -78,7 +78,7 @@ parts:
   - caption: "Unit 2: Sprites"
     chapters:
     - file: units/unit-02-sprites/00-types-of-sprites/00-intro
-
-    
-
-
+      sections:
+      - file: units/unit-02-sprites/00-types-of-sprites/01-objectives
+      - file: units/unit-02-sprites/00-types-of-sprites/02-materials
+ 
