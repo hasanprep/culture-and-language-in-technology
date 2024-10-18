@@ -30,33 +30,32 @@ This lab contains a complete example for reference only. Do not use this as your
     <li>1 PC or laptop</li>
     <li>1 ELECFREAKS Retro Arcade</li>
     <li>1 USB-C cable</li>
-    <l1>1 MakeCode Arcade Screen Grid</li>
-    <l1>1 Sheet of paper to write the algorithm</li>
-    <l1>1 Pencil</li>
+    <li>1 MakeCode Arcade Screen Grid</li>
+    <li>1 Sheet of paper to write the algorithm</li>
+    <li>1 Pencil</li>
     <br>
   </ul>
 </blockquote>
 
 ## Procedure
 
-### 1. Gather All Materials
-
-TODO
-
-### 2. Plan Your  Plot of a Ha:ṣañ
+### 1. Plan Your Plot of a Ha:ṣañ
 
 ```{important}
-The following example illustrates the process. **You must plan your own ha:ṣañ**.
+The following example illustrates the process. **You must plan your own ha:ṣañ**<br>Do not use the example for your lab.
 
 ```
+
+Use the MakeCode Arcade Screen Grid to plot the points of your ha:ṣañ as demonstrated below.
 
 ![makecode-arcade-draw-hasan-grid](assets/makecode-arcade-draw-hasan-grid.png)
 
-### 3. Write Your Ha:ṣañ Plot Algorithm
+### 2. Write Your Ha:ṣañ Plot Algorithm
 
 ```{important}
-The following example illustrates the process. **You must write your own algorithm**.
+The following example illustrates the process. **You must write your own algorithm**.<br>Do not use the example for your lab.
 ```
+
 
 1. Draw line from (85, 25) to (75, 25)
 2. Draw line from (75, 25) to (75, 50)
@@ -75,12 +74,14 @@ The following example illustrates the process. **You must write your own algorit
 15. Draw line from (95, 60) to (85, 80)
 16. Draw line from (85, 60) to (85, 25)
 
-### 4. Write the Code for Your Ha:ṣañ Plot
+### 3. Write the Code for Your Ha:ṣañ Plot
 
 ```{important}
-The following example is just an example to illustrate the process. **You must write your own code**.
+The following example is just an example to illustrate the process. **You must write your own code**<br>Do not use the example for your lab.
 ```
-
+Use the MakeCode Arcade Editor below to write your code. Duplicate the `draw line` block a
 ![makecode-arcade-draw-hasan-code](assets/makecode-arcade-draw-hasan-code.png)
 
 ![makecode-arcade-hasan-plotting-lab-example](assets/makecode-arcade-hasan-plotting-lab-example.png)
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://arcade.makecode.com/#pub:S75554-56427-19891-07767" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>

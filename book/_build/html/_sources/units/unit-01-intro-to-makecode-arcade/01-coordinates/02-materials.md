@@ -14,6 +14,3 @@ In the lesson, you will use the following materials:
   </ul>
 </blockquote>
 
-> - 1 PC or laptop
-> - 1 ELECFREAKS Retro Arcade Device
-> - 1 USB-C cable
