@@ -42,7 +42,7 @@ This lab contains a complete example for reference only. Do not use this as your
 ### 1. Plan Your Plot of a Ha:ṣañ
 
 ```{important}
-The following example illustrates the process. **You must plan your own ha:ṣañ.**<br>Do not use the example for your lab.
+The following example illustrates the process. Do not use the example for your lab.<br><br>**You must plan your own ha:ṣañ.**
 
 ```
 
@@ -53,7 +53,7 @@ Use the MakeCode Arcade Screen Grid to plot the points of your ha:ṣañ as demo
 ### 2. Write Your Ha:ṣañ Plot Algorithm
 
 ```{important}
-The following example illustrates the process. **You must write your own algorithm.**<br>Do not use the example for your lab.
+The following example illustrates the process. Do not use the example for your lab.<br><br> **You must write your own algorithm.**
 ```
 
 
@@ -77,9 +77,11 @@ The following example illustrates the process. **You must write your own algorit
 ### 3. Write the Code for Your Ha:ṣañ Plot
 
 ```{important}
-The following example is just an example to illustrate the process. **You must write your own code.**<br>Do not use the example for your lab.
+The following example is just an example to illustrate the process. Do not use the example for your lab.<br><br>**You must write your own code.**
 ```
-Use the MakeCode Arcade Editor below to write your code. Duplicate the `draw line` block a
+
+Use the MakeCode Arcade Editor below to write your code. Duplicate the `draw line to` block as many times as needed to create the ha:ṣañ. Enter the coordinates from the algorithm. 
+
 ![makecode-arcade-draw-hasan-code](assets/makecode-arcade-draw-hasan-code.png)
 
 ![makecode-arcade-hasan-plotting-lab-example](assets/makecode-arcade-hasan-plotting-lab-example.png)
