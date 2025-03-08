@@ -64,8 +64,6 @@ Select the `draw line in` block.
 
 Right-click on the block and select "Duplicate". Make three duplicates of the block. 
 
-
-
 ![makecode-arcade-draw-rectangle-code-01](assets/makecode-arcade-draw-rectangle-code-01.png)
 
 The duplicated blocks will appear below. These blocks are not colored the same, as they are not part of the code that will execute.
@@ -83,6 +81,8 @@ Place the duplicated `draw line in` blocks below the original block.
 The first block will draw one line from a point in one corner to an end in the other. 
 
 ![makecode-arcade-draw-rectangle-code-05](assets/makecode-arcade-draw-rectangle-code-05.png)
+
+
 
 ![makecode-arcade-draw-rectangle-code-06](assets/makecode-arcade-draw-rectangle-code-06.png)
 

@@ -4,7 +4,7 @@
 
 ## Introduction
 
-TODO
+In this lab, you will be creating a line plot of a ha:ṣañ by ploting lines with code blocks in MakeCode Arcade.
 
 ```{note}
 This lab contains a complete example for reference only. Do not use this as your submission. Each ha:ṣañ should be unique.
