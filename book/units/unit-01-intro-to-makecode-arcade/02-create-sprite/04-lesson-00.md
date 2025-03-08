@@ -2,11 +2,19 @@
 
 # Lesson: Using the Image Editor
 
+The Image Editor is a simple tool similar to a painting program. It allows you to make sprties and backgrounds in MakeCode Arcade.
+
 ## The Image Editor
+
+The figure below highlights the various parts of the Image Editor.
 
 ![makecode-image-editor](assets/makecode-image-editor.png)
 
+---
+
 ### The Paint Tool
+
+The paint tool is the i
 
 ![makecode-image-editor-paint-tool](assets/makecode-image-editor-paint-tool.png)
 
@@ -84,3 +92,12 @@
 ![makecode-image-editor-zoom-tool](assets/makecode-image-editor-zoom-tool.png)
 
 ![makecode-image-editor-zoom-tool](assets/makecode-image-editor-zoom-tool.gif)
+
+
+
+| Icon                                             | Tool        | Description |
+| ------------------------------------------------ | ----------- | ----------- |
+| ![icon-paint-tool](assets/icon-paint-tool.png)   | Paint Tool  | TODO        |
+| ![icon-eraser-tool](assets/icon-eraser-tool.png) | Eraser Tool | TODO        |
+|                                                  |             |             |
+

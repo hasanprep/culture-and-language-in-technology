@@ -34,3 +34,8 @@ html:
   use_repository_button: true
   announcement: "This is very much in draft mode. There are many errors and missing content."
 
+# Jupyter launch buttons
+launch_buttons:
+  notebook_interface: "classic"  # or "jupyterlab"
+  binderhub_url: "https://mybinder.org"  # The URL for your BinderHub (e.g., https://mybinder.org)
+  colab_url: "https://colab.research.google.com"

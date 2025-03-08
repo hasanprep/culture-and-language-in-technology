@@ -4,7 +4,6 @@
 
 By the end of this section, you will be able to...
 
-
 <blockquote>
   <ul style="list-style-type:circle;">
     <br>

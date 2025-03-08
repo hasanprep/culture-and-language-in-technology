@@ -1,6 +1,6 @@
 # Lesson: Creating a Sprite
 
-![makecode-arcade-sprite-size-demo](assets/makecode-arcade-sprite-size-demo.png)
+
 
 ![sprite-design-grids](assets/sprite-design-grids.png)
 

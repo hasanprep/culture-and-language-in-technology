@@ -9,8 +9,8 @@
 ha:ṣañ
     saguaro cactus
 
-TODO:word in O'odham for square
-    spuare
+TODO:word in O'odham for rectangle
+    circle
 ```
 
 ## O'odham Vocabulary Audio

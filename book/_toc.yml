@@ -81,4 +81,12 @@ parts:
       sections:
       - file: units/unit-02-sprites/00-types-of-sprites/01-objectives
       - file: units/unit-02-sprites/00-types-of-sprites/02-materials
- 
+  - caption: "Unit X: Introdction to Python"
+    chapters:
+    - file: units/unit-xx-introduction-to-python/00-the-python-programming-language/00-intro
+      sections:
+      - file: units/unit-xx-introduction-to-python/00-the-python-programming-language/01-objectives
+      - file: units/unit-xx-introduction-to-python/00-the-python-programming-language/02-materials
+      - file: units/unit-xx-introduction-to-python/00-the-python-programming-language/03-opener
+      - file: units/unit-xx-introduction-to-python/00-the-python-programming-language/04-lesson-00
+      - file: units/unit-xx-introduction-to-python/00-the-python-programming-language/04-lesson-01
